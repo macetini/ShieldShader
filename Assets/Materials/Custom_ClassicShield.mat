@@ -2,34 +2,39 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Custom_ClassicShield
   m_Shader: {fileID: 4800000, guid: 3fc322dd3f6bfdc4a832a3b25219e9e6, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _FresnelTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 10910, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-    - _FadeLength: 1.26
+    - _FadeLength: 1.56
     - _FresnelExponent: 4
     - _HitAlfaIntensity: 1.35
     - _HitColorIntensity: 1
-    - _HitEffectBorder: 0.4
-    - _HitForceMultiplier: 0.2
+    - _HitEffectBorder: 0.625
+    - _HitForceMultiplier: 0.607
     - _ScrollSpeedU: 2
     - _ScrollSpeedV: 1
     m_Colors:
@@ -38,3 +43,4 @@ Material:
     - _GlowColor: {r: 0, g: 1, b: 0.23084927, a: 1}
     - _HitColor: {r: 1, g: 0, b: 0.47387886, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
